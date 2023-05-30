@@ -1,3 +1,22 @@
-theme: jekyll-theme-minimal
 title: phvv.me homepage
 description: Bookmark this to keep an eye on my project updates!
+
+theme: jekyll-theme-minimal
+
+# reference: https://jekyllrb.com/docs/configuration/options/
+source: .
+safe: true
+incremental: false
+highlighter: rouge
+
+# https://jekyll.github.io/classifier-reborn/lsi
+lsi: true
+
+# gist:
+#   noscript: false
+
+kramdown:
+  math_engine: mathjax
+  syntax_highlighter: rouge
+
+
