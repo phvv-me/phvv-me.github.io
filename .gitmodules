@@ -1,3 +1,3 @@
 [submodule "blog"]
-	path = ./blog.phvv.me
+	path = blog
 	url = https://github.com/phvv-me/blog.phvv.me.git
