@@ -1,0 +1,25 @@
+---
+title: Quicksort
+headline: Algorithm Analysis - Quicksort
+date: '2020-08-25'
+description: 
+language: english
+category: post
+keywords:
+  - python
+  - algorithm
+  - sorting
+---
+
+plan:
+    - explain algorithm
+      - idea
+      - origin
+      - calculate: best, worst, average time/space complexity
+    - implementation:
+      - single thread vs. multi threaded
+      -x show process with animation (in js?) - optional
+    - statistics:
+      - benchmark (time, space, number of operations) for best, worst and real world data
+      - compare prediction with reality
+
