@@ -7,6 +7,7 @@ permalink: /index.html
 
 ## Pages
 
+<!-- TODO: remove homepage from the list -->
 {% assign pages = site.pages | where_exp: 'page', 'page.title' %}
 
 <ul>
