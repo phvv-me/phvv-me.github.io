@@ -4,7 +4,7 @@ description: Bookmark this to keep an eye on my project updates!
 # https://github.com/pages-themes/minimal
 theme: jekyll-theme-minimal
 logo: /assets/icon/icon-dark.svg
-show_downloads: true
+show_downloads: false
 # TODO: google_analytics: 
 
 # reference: https://jekyllrb.com/docs/configuration/options/
