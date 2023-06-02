@@ -1,6 +1,6 @@
 ---
 layout: single
-date: "2023-06-01"
+date: "2023-06-02"
 title:  "Welcome to Jekyll!"
 permalink: /blog/test
 ---
