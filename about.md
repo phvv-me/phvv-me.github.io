@@ -6,7 +6,7 @@ title: About Me
 
 # About me
 
-![author profile picture](../assets/images/profile-pic-pedro-valois.png)
+![author profile picture](../assets/images/profile-01.png)
 
 Hello, I am Pedro!
 
