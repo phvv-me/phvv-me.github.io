@@ -8,7 +8,7 @@ tags:
   - entropy
   - statistics
 title: On the Statistics of Order
-thumbnail: 
+thumbnail:
    url: ../images/dark-blue-concrete-steps.jpg
    description: In the stairwell of my library, the afternoon light fell through the metal railing thereby casting a unique shimmering light on the concrete steps.
    author: Martin Adams

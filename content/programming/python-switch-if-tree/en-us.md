@@ -412,7 +412,7 @@ For most cases, this approach might seem overkill, I know, but some time ago I h
 
 ## Conclusions
 
-`if...else` trees are one of the most common code smells I find in python code. It is so simple to start an `if` statement to select something that is also very common to keep it there forever. 
+`if...else` trees are one of the most common code smells I find in python code. It is so simple to start an `if` statement to select something that is also very common to keep it there forever.
 
 On the other hand, python offers patterns better than the traditional switch case syntax in an easy-to-refactor style. Therefore, if you've seen convoluted `if...else` trees in some code you're working on, this is your chance to refactor it.
 

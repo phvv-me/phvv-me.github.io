@@ -87,7 +87,7 @@ I know this sounds ridiculous and it should be. The point here is that if you ne
 
 Let's start this tutorial with a basic setup for VS Code. This is a very good yet simple configuration that I use in all my VS Code Python projects, as it configures the pep8 formatter, intellisense, the python interpreter version, github repo and some useful VS Code extensions. You don't have to follow _all_ the steps, but some are required, so if further on the reading you face any difficulties, come back here for troubleshooting. **The steps marked with _\*_ are not essential**.
 
-I will show you now a simple and automatic way of setting up your environment with vscode and Docker: 
+I will show you now a simple and automatic way of setting up your environment with vscode and Docker:
 
 <!-- the first one is  and the second one is _more manual_, but still easy enough. I will _time_ how long does it take to perform each step, so you can choose the one you want to do easily. -->
 
@@ -97,8 +97,8 @@ I will show you now a simple and automatic way of setting up your environment wi
 
 <!-- **13 - 27 minutes** -->
 
-This a very useful VS Code extension created by Microsoft that let us develop inside docker containers. With this extension, we are able to download a pre-configured python project (even if we don't have Python installed in the computer). The only requirements are VS Code and Docker, but if you don't know anything about Docker, don't worry, for I will thoroughly instruct the Docker related steps. Besides, if you have a hard time with this step or want to know more about it, I do have a specific 
-<Link to="/programming/vscode-docker-any-language/en-us/">Remote Development extension pack tutorial</Link> 
+This a very useful VS Code extension created by Microsoft that let us develop inside docker containers. With this extension, we are able to download a pre-configured python project (even if we don't have Python installed in the computer). The only requirements are VS Code and Docker, but if you don't know anything about Docker, don't worry, for I will thoroughly instruct the Docker related steps. Besides, if you have a hard time with this step or want to know more about it, I do have a specific
+<Link to="/programming/vscode-docker-any-language/en-us/">Remote Development extension pack tutorial</Link>
 you can look.
 
 #### 1. Install Docker on your computer

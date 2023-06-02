@@ -3,11 +3,11 @@ date: '2020-05-25'
 description: Demonstração da Métrica de Schwarzschild da Relatividade Geral a partir das equações de campo de Einstein com as coordenadas de Schwarzshild
 language: português
 layout: post
-tags: 
+tags:
     - relativity
 title: Demonstração da Métrica de Schwarzschild
 ---
-<!-- 
+<!--
 ---
 title: Demonstrating the Schwarzschild's Metric
 date: "2020-05-25"
@@ -28,35 +28,35 @@ Entretanto, essa expressão trata na verdade de equações diferenciais de segun
 
 Para alcançar esse feito, Schwarzschild assumiu um campo estático e esfericamente simétrico gerado por uma distribuição de massa esfericamente simétrica em repouso. Em outras palavras, imaginou um sistema como um planeta, uma estrela, o Sol na forma de uma esfera perfeita de raio $R$ em que toda a sua massa $m$ se encontra igualmente distribuída em um volume $V$ e parada (sem vibrações nem rotação). Matematicamente, isso se traduz num modelo para a densidade de massa do sistema como uma função $\rho$ expressa através de
 
-$$ 
-\rho(r) = \begin{cases} 
-  ^m / _V, & r \leq R \\ 
-  \hskip1.3em 0, & r > R \\ 
-\end{cases} 
+$$
+\rho(r) = \begin{cases}
+  ^m / _V, & r \leq R \\
+  \hskip1.3em 0, & r > R \\
+\end{cases}
 $$
 
-Agora, para que vejamos como isso simplifica as equações de campo, é necessário olhar a definição do tensor de energia-momentum $T^{\mu\nu} = \dfrac{\partial p^\mu}{\partial S_\nu}$ onde $p^\mu$ é o quadrimomentum e $S_\nu$ se trata da hipersuperfície espaço-temporal, i.e., 
+Agora, para que vejamos como isso simplifica as equações de campo, é necessário olhar a definição do tensor de energia-momentum $T^{\mu\nu} = \dfrac{\partial p^\mu}{\partial S_\nu}$ onde $p^\mu$ é o quadrimomentum e $S_\nu$ se trata da hipersuperfície espaço-temporal, i.e.,
 
 $$
 dS_\nu = \displaystyle \prod_{\alpha \neq \nu} dx_\alpha = \dfrac{dx_0 dx_1 dx_2 dx_3}{ |dx^\nu| }
 $$
 
-Primeiramente, da imposição que a distribuição $\rho$ está em repouso, o quadrimomentum assume a forma 
+Primeiramente, da imposição que a distribuição $\rho$ está em repouso, o quadrimomentum assume a forma
 
 $$
 p^\mu = m u^\mu = m (1, \vec{v}) = (m, 0) \Rightarrow p^a = 0 \\
-\text{e} \ p^0 = \begin{cases} 
+\text{e} \ p^0 = \begin{cases}
     m, & r \leq R \\
-    \hskip0.8em 0, & r > R \\ 
+    \hskip0.8em 0, & r > R \\
 \end{cases}
 $$
 
-e, portanto, $T^{a\nu} = \dfrac{\partial p^a}{\partial S_\nu} = 0$. Por outro lado, 
+e, portanto, $T^{a\nu} = \dfrac{\partial p^a}{\partial S_\nu} = 0$. Por outro lado,
 
 $$
-T^{0b} = 
-        \dfrac{\partial p^0}{\partial S_b} = 
-        \dfrac{\partial m}{\partial x_0 \partial x_a \partial x_c} = 
+T^{0b} =
+        \dfrac{\partial p^0}{\partial S_b} =
+        \dfrac{\partial m}{\partial x_0 \partial x_a \partial x_c} =
         \dfrac{\partial^2}{\partial x_a \partial x_c}\dfrac{\partial m}{\partial t} = 0
 $$
 
@@ -71,7 +71,7 @@ Essa expressão nos leva a dois campos distintos: um na região interna do siste
 Assumindo, então, $T_{\mu\nu} = T^{\mu\nu} = 0$, chega-se às **equações de vácuo**
 
 $$
-G_{\mu\nu} = 0 \Rightarrow 
+G_{\mu\nu} = 0 \Rightarrow
     R_{\mu\nu} - \tfrac{1}{2} R g_{\mu\nu} = 0
 $$
 
@@ -130,11 +130,11 @@ onde $\tau = \tau(r) \text{ e } \lambda = \lambda(r)$
 
 ## Obtendo as conexões da métrica
 
-Então, o que resta agora é descobrir como são as funções $\tau \text{ e } \lambda$. Para tal, utilizaremos a equação das geodésicas 
+Então, o que resta agora é descobrir como são as funções $\tau \text{ e } \lambda$. Para tal, utilizaremos a equação das geodésicas
 
 $$
 \ddot{x}^\alpha + \Gamma^\alpha_{\mu\nu}\dot{x}^\mu\dot{x}^\nu = 0
-$$ 
+$$
 
 para calcular as conexões $\Gamma^\alpha_{\mu\nu}$ da variedade geométrica do espaço-tempo, pois devemos utilizar as equações de campo de vácuo para determinar a métrica.
 
@@ -146,18 +146,18 @@ $$
 $$
 
 onde $\dot{x}^\alpha = \dfrac{dx^\alpha}{d\lambda}$, em que $\lambda$ é um parâmetro qualquer.
-        
-Em seguida, por meio da equação de Euler-Lagrange 
+
+Em seguida, por meio da equação de Euler-Lagrange
 
 $$
 \dfrac{d}{d\lambda}\dfrac{\partial\mathcal{L}^2}{\partial \dot{x}^\alpha} - \dfrac{\partial\mathcal{L}^2}{\partial x^\alpha} = 0,
-$$ 
+$$
 obtêm-se o valor das conexões
 
 $$
 \begin{aligned}
 
-(\Gamma^t_{\mu\nu}) &= 
+(\Gamma^t_{\mu\nu}) &=
 \left(\begin{matrix}
       0 & \tau' & 0 & 0 \\
       \tau' & 0 & 0 & 0 \\
@@ -167,17 +167,17 @@ $$
 
 \\
 
-(\Gamma^r_{\mu\nu}) &= 
+(\Gamma^r_{\mu\nu}) &=
 \left(\begin{matrix}
       \tau'e^{(2\tau - 2\lambda)} & 0 & 0 & 0 \\
       0 & \lambda' & 0 & 0 \\
       0 & 0 & -r e^{-2\lambda} & 0 \\
-      0 & 0 & 0 & -r e^{-2\lambda} sen^2\theta 
+      0 & 0 & 0 & -r e^{-2\lambda} sen^2\theta
 \end{matrix}\right)
 
 \\
 
-(\Gamma^\theta_{\mu\nu}) &= 
+(\Gamma^\theta_{\mu\nu}) &=
 \left(\begin{matrix}
       0 & 0 & 0 & 0 \\
       0 & 0 & r^{-1} & 0 \\
@@ -187,12 +187,12 @@ $$
 
 \\
 
-(\Gamma^\varphi_{\mu\nu}) &= 
+(\Gamma^\varphi_{\mu\nu}) &=
 \left(\begin{matrix}
       0 & 0 & 0 & 0 \\
       0 & 0 & 0 & r^{-1} \\
       0 & 0 & 0 & cotg \, \theta \\
-      0 & r^{-1} & cotg \, \theta & 0 
+      0 & r^{-1} & cotg \, \theta & 0
 \end{matrix}\right)
 
 \end{aligned}
@@ -205,9 +205,9 @@ De posse das conexões e da equação de campo no vácuo $R_{\mu\nu} = 0$, devem
 
 $$
 R_{\mu\nu} = {R^\alpha}_{\mu\alpha\nu} =
-      \Gamma^\alpha_{\mu\nu,\alpha} + 
+      \Gamma^\alpha_{\mu\nu,\alpha} +
       \Gamma^\beta_{\mu\nu} \Gamma^\alpha_{\alpha\beta} -
-      \Gamma^\alpha_{\alpha\mu,\nu} - 
+      \Gamma^\alpha_{\alpha\mu,\nu} -
       \Gamma^\beta_{\alpha\mu} \Gamma^\alpha_{\beta\nu}
 $$
 
@@ -215,40 +215,40 @@ Assim,
 
 $$
 \begin{aligned}
-    t: 
-                      R_{tt} & = \Gamma^\alpha_{tt,\alpha} + 
+    t:
+                      R_{tt} & = \Gamma^\alpha_{tt,\alpha} +
                                  \Gamma^r_{tt} \Gamma^\alpha_{\alpha r} -
-                                 \Gamma^\alpha_{\alpha t, t} - 
+                                 \Gamma^\alpha_{\alpha t, t} -
                                  \Gamma^\beta_{\alpha t} \Gamma^\alpha_{\beta t} \\
-                             & = \Gamma^r_{tt,r} 
+                             & = \Gamma^r_{tt,r}
                                  \Gamma^r_{tt} \Gamma^\alpha_{\alpha r} -
-                                 \Gamma^r_{tt} \Gamma^t_{rt} - 
+                                 \Gamma^r_{tt} \Gamma^t_{rt} -
                                  \Gamma^t_{tr} \Gamma^r_{tt} \\
                              & = (\tau'' - \lambda' \tau' + \tau'^2 + 2\tfrac{\tau'}{r}) e^{(2\tau - 2\lambda)}
 
 \\
 
-    r: 
-                      R_{rr} & = \Gamma^r_{rr,r} + 
+    r:
+                      R_{rr} & = \Gamma^r_{rr,r} +
                                  \Gamma^r_{rr} \Gamma^\alpha_{\alpha r} -
-                                 \Gamma^\alpha_{\alpha r, r} - 
+                                 \Gamma^\alpha_{\alpha r, r} -
                                  \Gamma^\beta_{\alpha r} \Gamma^\alpha_{\beta r} \\
-                             & = \Gamma^r_{rr,r} 
+                             & = \Gamma^r_{rr,r}
                                  \Gamma^r_{rr} (\Gamma^r_{rr} + \Gamma^t_{rt} + \Gamma^\theta_{rt} + \Gamma^\varphi_{r\varphi}) -
-                                 \Gamma^\alpha_{\alpha r, r} - 
+                                 \Gamma^\alpha_{\alpha r, r} -
                                  ({\Gamma^r_{rr}}^2 + {\Gamma^t_{rt}}^2 + {\Gamma^\theta_{r\theta}}^2 + {\Gamma^\varphi_{r\varphi}}^2) \\
                              & = \lambda'\tau' -\tau'' -\tau'^2 + 2 \tfrac{\lambda'}{r}
 
 \\
 
-    \theta: 
-                      R_{\theta\theta} & = \Gamma^\alpha_{\theta\theta,\alpha} + 
+    \theta:
+                      R_{\theta\theta} & = \Gamma^\alpha_{\theta\theta,\alpha} +
                                  \Gamma^\beta_{\theta\theta} \Gamma^\alpha_{\alpha\beta} -
-                                 \Gamma^\alpha_{\alpha\theta, \theta} - 
+                                 \Gamma^\alpha_{\alpha\theta, \theta} -
                                  \Gamma^\beta_{\alpha\theta} \Gamma^\alpha_{\beta\theta} \\
-                             & = \Gamma^r_{\theta\theta,r} 
+                             & = \Gamma^r_{\theta\theta,r}
                                  \Gamma^r_{\theta\theta} (\Gamma^r_{rr} + \Gamma^t_{rt} + \Gamma^\theta_{rt} + \Gamma^\varphi_{r\varphi}) -
-                                 \Gamma^\varphi_{\varphi\theta,\theta} - 
+                                 \Gamma^\varphi_{\varphi\theta,\theta} -
                                  2\Gamma^r_{\theta\theta}\Gamma^\theta_{r\theta} -
                                  \Gamma^\varphi_{\theta\varphi}\Gamma^\varphi_{\varphi\theta} \\
                              & = 1 - [1 + r(\tau' - \lambda')]e^{-2\lambda}
@@ -256,12 +256,12 @@ $$
 \\
 
     \varphi:
-                      R_{\varphi\varphi} & = \Gamma^\alpha_{\varphi\varphi,\alpha} + 
+                      R_{\varphi\varphi} & = \Gamma^\alpha_{\varphi\varphi,\alpha} +
                                  \Gamma^\beta_{\varphi\varphi} \Gamma^\alpha_{\alpha\beta} -
-                                 \Gamma^\alpha_{\alpha\varphi, \varphi} - 
+                                 \Gamma^\alpha_{\alpha\varphi, \varphi} -
                                  \Gamma^\beta_{\alpha\varphi} \Gamma^\alpha_{\beta\varphi} \\
-                             & = \Gamma^r_{\varphi\varphi,r} + 
-                                 \Gamma^\theta_{\varphi\varphi,\theta} + 
+                             & = \Gamma^r_{\varphi\varphi,r} +
+                                 \Gamma^\theta_{\varphi\varphi,\theta} +
                                  \Gamma^r_{\varphi\varphi} (\Gamma^r_{rr} + \Gamma^\theta_{r\theta} + \Gamma^t_{rt}) -
                                  \Gamma^r_{\varphi\varphi}\Gamma^\varphi_{r\varphi} -
                                  \Gamma^\theta_{\varphi\varphi}\Gamma^\varphi_{\theta\varphi} \\
@@ -273,7 +273,7 @@ $$
 
 \end{aligned}
 $$
- 
+
 Chegamos, finalmente, ao sistema de equações diferenciais que temos que resolver
 
 $$
@@ -286,11 +286,11 @@ $$
 
 ## Resolvendo o sistema
 
-A segunda equação do sistema, $\lambda'\tau' -\tau'' -\tau'^2 + 2 \tfrac{\lambda'}{r} = 0$ pode ser reescrita na forma 
+A segunda equação do sistema, $\lambda'\tau' -\tau'' -\tau'^2 + 2 \tfrac{\lambda'}{r} = 0$ pode ser reescrita na forma
 
 $$
 -\lambda'\tau' +\tau'' +\tau'^2 = 2 \tfrac{\lambda'}{r} \Rightarrow \tau'' - \lambda' \tau' + \tau'^2 = 2 \tfrac{\lambda'}{r}
-$$ 
+$$
 
 Assim, a primeira equação se torna
 
@@ -302,7 +302,7 @@ $$
 \end{aligned}
 $$
 
-Agora, é razoável assumir que, para $r \gg R$, a métrica se torne plana, i.e., 
+Agora, é razoável assumir que, para $r \gg R$, a métrica se torne plana, i.e.,
 
 $$
 \begin{aligned}
@@ -318,7 +318,7 @@ $$
 \tau + \lambda = 0, \forall r > R
 $$
 
-Desse modo, a terceira equação do sistema se torna 
+Desse modo, a terceira equação do sistema se torna
 
 $$
 \begin{aligned}
@@ -330,7 +330,7 @@ $$
 
 ## Componentes da métrica e aproximação de campo fraco
 
-De posse do resultado anterior, já é possível calcular cada componente da métrica, 
+De posse do resultado anterior, já é possível calcular cada componente da métrica,
 
 $$
 \begin{aligned}
@@ -339,11 +339,11 @@ g_{11} = e^{2\lambda} & = (1 + \tfrac{C}{r})^{-1}
 \end{aligned}
 $$
 
-Contudo, sabemos que, no limite Newtoniano, $g_{00} = -(1 + 2\Phi)$, onde $\Phi$ é o potencial gravitacional 
+Contudo, sabemos que, no limite Newtoniano, $g_{00} = -(1 + 2\Phi)$, onde $\Phi$ é o potencial gravitacional
 
 $$
 \Phi = - \tfrac{M}{r}
-$$ 
+$$
 
 Logo, tiramos que $C = - 2M$.
 
@@ -360,7 +360,7 @@ $$
 \end{matrix}\right)
 $$
 
-e o respectivo elemento de linha  
+e o respectivo elemento de linha
 
 $$
 ds^2 = - (1 - \tfrac{2M}{r}) dt^2 + (1 - \tfrac{2M}{r})^{-1} dr^2 + r^2 (d\theta^2 + sin^2\theta d\varphi^2)

@@ -16,7 +16,7 @@ I am from Salvador, Bahia, Brazil, but I am currently pursuing my PhD in Compute
 
 <!-- Beyond that, I also invested my time in other activities while in college: I was a physics assistant instructor, I learned german, I attended theoretical physics and computer science conferences, I was the photographer for the CAASO Dance Company and a volunteer at Projeto Presença (Project for Presence), helping arrange meditation encounters throughout the city. Despite that, what I made the most while in Salvador and São Carlos were friends and memories. -->
 
-At present, I am devoting myself to study subjects that sparked my interest, namely japanese and Deep Learning. 
+At present, I am devoting myself to study subjects that sparked my interest, namely japanese and Deep Learning.
 
 Oh, and of course, I also keep this website, writing a somethings whenever possible.
 
@@ -24,7 +24,7 @@ Oh, and of course, I also keep this website, writing a somethings whenever possi
 
 This site is a tool to organize subjects I wish to ponder and a reason for writing more frequently as well. In a nutshell, it's just a blog.
 
-It is true that some posts could be taken as more professional albeit others are seen as personal. 
+It is true that some posts could be taken as more professional albeit others are seen as personal.
 
 Anyway, I hope you like what you find here 😁.
 

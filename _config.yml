@@ -1,15 +1,19 @@
+---
 title: phvv.me
-description: Pedro Valois' personal website. Bookmark to keep an eye on my project updates!
+description: Pedro Valois'
+  personal website. Bookmark
+  to keep an eye on my project
+  updates!
 
 plugins:
-  - jekyll-remote-theme
-  - jekyll-include-cache
+- jekyll-remote-theme
+- jekyll-include-cache
 
 # https://github.com/pages-themes/minimal
 # theme: jekyll-theme-minimal
 # logo: /assets/icon/icon-dark.svg
 # show_downloads: false
-# TODO: google_analytics: 
+# TODO: google_analytics:
 
 # https://github.com/mmistakes/minimal-mistakes
 remote_theme: mmistakes/minimal-mistakes@4.24.0

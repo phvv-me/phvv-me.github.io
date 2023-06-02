@@ -147,7 +147,7 @@ Below you'll find some explanations about all the project files. If you're just 
       for the Visual Studio Code environment.
     </File>
     <File name="Dockerfile">
-      This file is referenced at `devcontainer.json` to 
+      This file is referenced at `devcontainer.json` to
       <a href="https://docs.docker.com/engine/reference/builder/">assemble a docker image</a>.
       Then, a container is created and started using some of the settings in `devcontainer.json`.
     </File>
@@ -222,8 +222,8 @@ Below you'll find some explanations about all the project files. If you're just 
       for the Visual Studio Code environment.
     </File>
     <File name="Dockerfile">
-      This file is referenced at <code>devcontainer.json</code> to 
-      <a href="https://docs.docker.com/engine/reference/builder/">assemble a docker image</a>. 
+      This file is referenced at <code>devcontainer.json</code> to
+      <a href="https://docs.docker.com/engine/reference/builder/">assemble a docker image</a>.
       Then a container is created and started using some of the settings in <code>devcontainer.json</code>.
     </File>
   </Folder>
@@ -301,8 +301,8 @@ Below you'll find some explanations about all the project files. If you're just 
       for the Visual Studio Code environment.
     </File>
     <File name="Dockerfile">
-      This file is referenced at <code>devcontainer.json</code> to 
-      <a href="https://docs.docker.com/engine/reference/builder/">assemble a docker image</a>. 
+      This file is referenced at <code>devcontainer.json</code> to
+      <a href="https://docs.docker.com/engine/reference/builder/">assemble a docker image</a>.
       Then a container is created and started using some of the settings in <code>devcontainer.json</code>.
     </File>
   </Folder>
@@ -317,7 +317,7 @@ Below you'll find some explanations about all the project files. If you're just 
     </File>
   </Folder>
   <Folder name="bin" closed gray>
-    This folder can be ignored. The bin folder holds binary files: the executable, compiled code for the application. 
+    This folder can be ignored. The bin folder holds binary files: the executable, compiled code for the application.
   </Folder>
   <Folder name="obj" closed gray>
     This folder can be ignored. This folder holds intermediate files, which will be combined to produce the final executable. The compiler generates one of these files for each source file, and they are placed into the obj folder.
