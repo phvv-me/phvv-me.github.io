@@ -11,7 +11,7 @@ plugins:
 # show_downloads: false
 # TODO: google_analytics: 
 
-https://github.com/mmistakes/minimal-mistakes
+# https://github.com/mmistakes/minimal-mistakes
 remote_theme: mmistakes/minimal-mistakes@4.24.0
 
 # reference: https://jekyllrb.com/docs/configuration/options/
