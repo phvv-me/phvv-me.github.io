@@ -118,7 +118,7 @@ author:
   avatar           : /assets/profile/profile-02.webp # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : Another guy trying to create **AI** while studying japanese and playing games.
   location         : Japan 🗾
-  email            : vaz.valois@hotmail.com
+  # email            : vaz.valois@hotmail.com
   links: &links
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
