@@ -6,8 +6,6 @@ title: About Me
 
 # About me
 
-![author profile picture](../assets/images/profile-01.png)
-
 Hello, I am Pedro!
 
 I am from Salvador, Bahia, Brazil, but I am currently pursuing my PhD in Computer Science in Tsukuba, Japan.
