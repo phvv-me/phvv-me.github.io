@@ -2,7 +2,7 @@
 date: "2020-05-12"
 description: a short discussion about how scarce order and meaning are in our universe with a simple poker example
 language: english
-layout: post
+layout: single
 tags:
   - thermodynamics
   - entropy

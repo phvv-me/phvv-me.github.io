@@ -6,15 +6,6 @@ plugins:
 - jekyll-remote-theme
 - jekyll-include-cache
 
-# https://github.com/pages-themes/minimal
-# theme: jekyll-theme-minimal
-# logo: /assets/icon/icon-dark.svg
-# show_downloads: false
-# TODO: google_analytics:
-
-# https://github.com/mmistakes/minimal-mistakes
-remote_theme: mmistakes/minimal-mistakes@4.24.0
-minimal_mistakes_skin: dark
 
 # reference: https://jekyllrb.com/docs/configuration/options/
 source: .
@@ -32,4 +23,85 @@ kramdown:
   math_engine: mathjax
   syntax_highlighter: rouge
 
+# https://github.com/mmistakes/minimal-mistakes
+# https://mmistakes.github.io/minimal-mistakes/docs/configuration/
+remote_theme: mmistakes/minimal-mistakes@4.24.0
+minimal_mistakes_skin: dark
+locale: en
+title_separator: |
+subtitle: Pedro Valois
+name: Pedro Valois
+logo: /assets/icon/icon-dark.svg
+masthead_title: phvv.me
+breadcrumbs: true
+show_date: true
+read_time: true
+atom_feed:
+  hide: true
+search: true
+og_image: /assets/icon/icon-white.svg
+timezone: Asia/Tokyo
 
+# TODO: social links
+# social:
+#   type:  # Person or Organization (defaults to Person)
+#   name:  # If the user or organization name differs from the site's name
+#   links:
+#     - "https://twitter.com/yourTwitter"
+#     - "https://www.facebook.com/yourFacebook"
+#     - "https://instagram.com/yourProfile"
+#     - "https://www.linkedin.com/in/yourprofile"
+
+analytics:
+  provider: google-gtag
+  google:
+    tracking_id: 380213528
+    anonymize_ip: false
+
+# TODO: comments
+# disqus:
+#   shortname: phvv-me
+
+author:
+  name: Pedro Valois
+  avatar: assets/profile/profile-pic-pedro-valois.webp
+  bio: Another guy trying to create AI while studying japanese and playing games.
+  location: Japan 🗾
+  links:
+  - label: GitHub
+    icon: fab fa-fw fa-github
+    url: &github https://github.com/pedrexus"
+  - label: Instagram
+    icon: fab fa-fw fa-instagram
+    url: &instagram https://www.instagram.com/pedrovvalois/
+
+footer:
+  links:
+  - label: GitHub
+    icon: fab fa-fw fa-github
+    url: *github
+  - label: Instagram
+    icon: fab fa-fw fa-instagram
+    url: *instagram
+
+defaults:
+  # _posts
+- scope:
+    path: ''
+    type: posts
+  values:
+    layout: single
+    author_profile: true
+    read_time: true
+    comments: true
+    share: true
+    related: true
+- scope:
+    path: ''
+    type: pages
+  values:
+    layout: single
+
+# homepage
+paginate: 10
+paginate_path: /page:num/
