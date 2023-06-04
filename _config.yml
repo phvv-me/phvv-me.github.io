@@ -236,6 +236,12 @@ whitelist:
   - jekyll-feed
   - jekyll-include-cache
 
+head_scripts:
+footer_scripts:
+after_footer_scripts:
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+
 # Archives
 #  Type
 #  - GitHub Pages compatible archive pages built with Liquid ~> type: liquid (default)
