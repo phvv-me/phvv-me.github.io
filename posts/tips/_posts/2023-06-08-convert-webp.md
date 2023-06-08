@@ -84,8 +84,7 @@ The original image files are still present, and the converted files have the sam
 
 In this post, we showed you how to use the `cwebp` command-line tool to convert images to WebP format with compression. By using this technique, you can significantly reduce the file size of your images without sacrificing image quality.
 
-![example jpeg image](assets/images/../../../../../assets/images/two-woman-sitting-on-sofa-while-using-laptops.jpg)
-
 | Original Image | Converted Image |
 | --- | --- |
 | ![Original JPEG Image](assets/images/../../../../../assets/images/two-woman-sitting-on-sofa-while-using-laptops.jpg) | ![Converted WebP Image](assets/images/../../../../../assets/webp/two-woman-sitting-on-sofa-while-using-laptops.webp) |
+| --- | --- |
