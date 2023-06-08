@@ -3,7 +3,7 @@ layout: single
 tags:
     - vscode
 title: How to fix inline LaTex equations with vscode regex find and replace
-excerpt: Replace inline LaTex equation from `$...$` to `\\\(...\\\)` excluding `$``$...$``$` in VSCode
+excerpt: Replace inline LaTex equation from `$...$` to `\\\(...\\\)` excluding `$ $...$ $` in VSCode
 ---
 
 ## TL;DR
