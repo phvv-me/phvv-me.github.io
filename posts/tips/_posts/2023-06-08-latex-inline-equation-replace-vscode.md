@@ -2,10 +2,11 @@
 layout: single
 tags:
     - vscode
-title: Replace inline LaTex equation from $...$ to \(...\) excluding $$...$$ in VSCode
+title: "Replace inline LaTex equation from `$...$` to `\(...\)` excluding `$$...$$` in VSCode"
+excerpt: We explain how to replace inline LaTex equation from `$...$` to `\(...\)` excluding `$$...$$` in VSCode.
 ---
 
-We explain how to replace inline LaTex equation from $...$ to \(...\) excluding $$...$$ in VSCode.
+
 
 ## TL;DR
 
