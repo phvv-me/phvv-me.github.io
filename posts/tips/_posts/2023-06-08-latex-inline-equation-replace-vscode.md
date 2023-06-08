@@ -2,7 +2,7 @@
 layout: single
 tags:
     - vscode
-title: "Replace inline LaTex equation from `$...$` to `\\\(...\\\)` excluding `\$\$...\$\$` in VSCode"
+title: "Replace inline LaTex equation from `$...$` to `\\\(...\\\)` excluding `$\$...$\$` in VSCode"
 # excerpt: We explain how to fix inline LaTex equations with vscode regex find and replace
 ---
 
@@ -22,7 +22,7 @@ We explain how to fix inline LaTex equations with vscode regex find and replace
    - Here, `(?<!\$)\$` matches a single `$` character that is not preceded by another `$`.
    - `(?!\$)\$` matches a single `$` character that is not followed by another `$`.
    - `(.*?)` captures the content between the dollar signs.
-   - The negative lookarounds, `(?<!\$)` and `(?!\$)`, ensure that the `$...$` strings are not preceded or followed by another dollar sign, effectively excluding `$$...$$` strings.
+   - The negative 'lookarounds', `(?<!\$)` and `(?!\$)`, ensure that the `$...$` strings are not preceded or followed by another dollar sign, effectively excluding `$$...$$` strings.
 4. In the Replace input field, enter: `\\\($1\\\)`.
    - Here, `\\\(` and `\\\)` represent the literal characters `\\(` and `\\)` in the replacement string.
    - `$1` refers to the captured group from the find pattern, which contains the content between the dollar signs.
