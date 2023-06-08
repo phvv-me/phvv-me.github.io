@@ -1,6 +1,6 @@
 ---
 header:
-  overlay_image: assets/images/dark-blue-concrete-steps.jpg
+  overlay_image: assets/webp/dark-blue-concrete-steps.webp
   image_description: In the stairwell of my library, the afternoon light fell through the metal railing thereby casting a unique shimmering light on the concrete steps.
   caption: Photo by [**Martin Adams**](https://unsplash.com/@martinadams)
 layout: single

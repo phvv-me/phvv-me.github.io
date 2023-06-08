@@ -1,4 +1,8 @@
 ---
+header:
+  overlay_image: assets/webp/mohammad-rahmani-code-editor.webp
+  image_description: Open code editor in laptop screen
+  caption: Photo by [**Mohammad Rahmani**](https://unsplash.com/ja/@afgprogrammer)
 layout: single
 tags:
     - vscode
