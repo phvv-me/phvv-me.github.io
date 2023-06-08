@@ -7,6 +7,14 @@ tags:
     - relativity
 title: Demonstração da Métrica de Schwarzschild
 ---
+<!--
+---
+title: Demonstrating the Schwarzschild's Metric
+date: "2020-05-25"
+description: General Relativity Schwarzschild's Metric Demonstration from Einstein's field equations with Schwarzshild coordinates
+language: english
+category: post
+--- -->
 
 As equações de campo de Einstein carregam toda a essência e todos os princípios por detrás da Relatividade Geral. Curiosamente, em notação tensorial, elas se reduzem a uma única expressão aparentemente muito simplória.
 
@@ -18,7 +26,7 @@ Entretanto, essa expressão trata na verdade de equações diferenciais de segun
 
 ## Modelando o problema
 
-Para alcançar esse feito, Schwarzschild assumiu um campo estático e esfericamente simétrico gerado por uma distribuição de massa esfericamente simétrica em repouso. Em outras palavras, imaginou um sistema como um planeta, uma estrela, o Sol na forma de uma esfera perfeita de raio \(R\) em que toda a sua massa \(m\) se encontra igualmente distribuída em um volume \(V\) e parada (sem vibrações nem rotação). Matematicamente, isso se traduz num modelo para a densidade de massa do sistema como uma função \(\rho\) expressa através de
+Para alcançar esse feito, Schwarzschild assumiu um campo estático e esfericamente simétrico gerado por uma distribuição de massa esfericamente simétrica em repouso. Em outras palavras, imaginou um sistema como um planeta, uma estrela, o Sol na forma de uma esfera perfeita de raio \\(R\\) em que toda a sua massa \\(m\\) se encontra igualmente distribuída em um volume \\(V\\) e parada (sem vibrações nem rotação). Matematicamente, isso se traduz num modelo para a densidade de massa do sistema como uma função \\(\rho\\) expressa através de
 
 $$
 \rho(r) = \begin{cases}
@@ -27,13 +35,13 @@ $$
 \end{cases}
 $$
 
-Agora, para que vejamos como isso simplifica as equações de campo, é necessário olhar a definição do tensor de energia-momentum \(T^{\mu\nu} = \dfrac{\partial p^\mu}{\partial S_\nu}\) onde \(p^\mu\) é o quadrimomentum e \(S_\nu\) se trata da hipersuperfície espaço-temporal, i.e.,
+Agora, para que vejamos como isso simplifica as equações de campo, é necessário olhar a definição do tensor de energia-momentum \\(T^{\mu\nu} = \dfrac{\partial p^\mu}{\partial S_\nu}\\) onde \\(p^\mu\\) é o quadrimomentum e \\(S_\nu\\) se trata da hipersuperfície espaço-temporal, i.e.,
 
 $$
 dS_\nu = \displaystyle \prod_{\alpha \neq \nu} dx_\alpha = \dfrac{dx_0 dx_1 dx_2 dx_3}{ |dx^\nu| }
 $$
 
-Primeiramente, da imposição que a distribuição \(\rho\) está em repouso, o quadrimomentum assume a forma
+Primeiramente, da imposição que a distribuição \\(\rho\\) está em repouso, o quadrimomentum assume a forma
 
 $$
 p^\mu = m u^\mu = m (1, \vec{v}) = (m, 0) \Rightarrow p^a = 0 \\
@@ -43,7 +51,7 @@ p^\mu = m u^\mu = m (1, \vec{v}) = (m, 0) \Rightarrow p^a = 0 \\
 \end{cases}
 $$
 
-e, portanto, \(T^{a\nu} = \dfrac{\partial p^a}{\partial S_\nu} = 0\). Por outro lado,
+e, portanto, \\(T^{a\nu} = \dfrac{\partial p^a}{\partial S_\nu} = 0\\). Por outro lado,
 
 $$
 T^{0b} =
@@ -58,9 +66,9 @@ $$
   T^{00} = \dfrac{\partial p^0}{\partial x_1 \partial x_2 \partial x_3} = \dfrac{\partial p^0}{\partial V} = \dfrac{p^0}{V} = \rho(r)
 $$
 
-Essa expressão nos leva a dois campos distintos: um na região interna do sistema \(T^{00} = \tfrac{m}{V}\) e outro na região externa \(T^{00} = 0\). Em sua análise, Schwarzschild considerou apenas a segunda região e é isso o que iremos replicar aqui.
+Essa expressão nos leva a dois campos distintos: um na região interna do sistema \\(T^{00} = \tfrac{m}{V}\\) e outro na região externa \\(T^{00} = 0\\). Em sua análise, Schwarzschild considerou apenas a segunda região e é isso o que iremos replicar aqui.
 
-Assumindo, então, \(T_{\mu\nu} = T^{\mu\nu} = 0\), chega-se às **equações de vácuo**
+Assumindo, então, \\(T_{\mu\nu} = T^{\mu\nu} = 0\\), chega-se às **equações de vácuo**
 
 $$
 G_{\mu\nu} = 0 \Rightarrow
@@ -81,7 +89,7 @@ $$
 $$
 
 
-Assim, chegamos à forma mais simples para a expressão das equações de campo no vácuo \(R_{\mu\nu} = 0\)
+Assim, chegamos à forma mais simples para a expressão das equações de campo no vácuo \\(R_{\mu\nu} = 0\\)
 
 ## Métrica nas Coordenadas de Schwarzschild
 
@@ -95,7 +103,7 @@ $$
 \end{aligned}
 $$
 
-Além disso, Schwarzschild assumiu um campo esfericamente simétrico, o que significa que, em coordenadas esféricas \((x^\mu) = (t, r, \theta, \varphi)\), a métrica precisa ser diagonal \(g_{ij} = 0 \Leftrightarrow i \neq j\).
+Além disso, Schwarzschild assumiu um campo esfericamente simétrico, o que significa que, em coordenadas esféricas \\((x^\mu) = (t, r, \theta, \varphi)\\), a métrica precisa ser diagonal \\(g_{ij} = 0 \Leftrightarrow i \neq j\\).
 
 Logo, temos que
 
@@ -118,26 +126,26 @@ $$
 \end{matrix}\right)
 $$
 
-onde \(\tau = \tau(r) \text{ e } \lambda = \lambda(r)\)
+onde \\(\tau = \tau(r) \text{ e } \lambda = \lambda(r)\\)
 
 ## Obtendo as conexões da métrica
 
-Então, o que resta agora é descobrir como são as funções \(\tau \text{ e } \lambda\). Para tal, utilizaremos a equação das geodésicas
+Então, o que resta agora é descobrir como são as funções \\(\tau \text{ e } \lambda\\). Para tal, utilizaremos a equação das geodésicas
 
 $$
 \ddot{x}^\alpha + \Gamma^\alpha_{\mu\nu}\dot{x}^\mu\dot{x}^\nu = 0
 $$
 
-para calcular as conexões \(\Gamma^\alpha_{\mu\nu}\) da variedade geométrica do espaço-tempo, pois devemos utilizar as equações de campo de vácuo para determinar a métrica.
+para calcular as conexões \\(\Gamma^\alpha_{\mu\nu}\\) da variedade geométrica do espaço-tempo, pois devemos utilizar as equações de campo de vácuo para determinar a métrica.
 
-Pelo método das geodésicas, começamos computando o quadrado da lagrangiana \(\mathcal{L}\), dado por
+Pelo método das geodésicas, começamos computando o quadrado da lagrangiana \\(\mathcal{L}\\), dado por
 
 $$
 \mathcal{L}^2 = g_{\mu\nu} \dot{x}^\mu \dot{x}^\nu
 \Rightarrow \mathcal{L}^2 = -e^{2\tau}\dot{t}^2 + e^{2\lambda}\dot{r}^2 + r^2\dot{\theta}^2 + r^2sen^2\theta\dot{\varphi}^2
 $$
 
-onde \(\dot{x}^\alpha = \dfrac{dx^\alpha}{d\lambda}\), em que \(\lambda\) é um parâmetro qualquer.
+onde \\(\dot{x}^\alpha = \dfrac{dx^\alpha}{d\lambda}\\), em que \\(\lambda\\) é um parâmetro qualquer.
 
 Em seguida, por meio da equação de Euler-Lagrange
 
@@ -193,7 +201,7 @@ $$
 
 ## Calculando o tensor de Ricci
 
-De posse das conexões e da equação de campo no vácuo \(R_{\mu\nu} = 0\), devemos apenas calcular o tensor de Ricci, que se expressa como
+De posse das conexões e da equação de campo no vácuo \\(R_{\mu\nu} = 0\\), devemos apenas calcular o tensor de Ricci, que se expressa como
 
 $$
 R_{\mu\nu} = {R^\alpha}_{\mu\alpha\nu} =
@@ -278,7 +286,7 @@ $$
 
 ## Resolvendo o sistema
 
-A segunda equação do sistema, \(\lambda'\tau' -\tau'' -\tau'^2 + 2 \tfrac{\lambda'}{r} = 0\) pode ser reescrita na forma
+A segunda equação do sistema, \\(\lambda'\tau' -\tau'' -\tau'^2 + 2 \tfrac{\lambda'}{r} = 0\\) pode ser reescrita na forma
 
 $$
 -\lambda'\tau' +\tau'' +\tau'^2 = 2 \tfrac{\lambda'}{r} \Rightarrow \tau'' - \lambda' \tau' + \tau'^2 = 2 \tfrac{\lambda'}{r}
@@ -294,7 +302,7 @@ $$
 \end{aligned}
 $$
 
-Agora, é razoável assumir que, para \(r \gg R\), a métrica se torne plana, i.e.,
+Agora, é razoável assumir que, para \\(r \gg R\\), a métrica se torne plana, i.e.,
 
 $$
 \begin{aligned}
@@ -304,7 +312,7 @@ e^{2\tau} \approx e^{2\lambda} \approx 1 & \Rightarrow e^{2\tau + 2\lambda} = 1 
 \end{aligned}
 $$
 
-Então, como \(\lambda + \tau = cte, \forall r > R\) e \(\lambda + \tau = 0, \forall r \gg R\), temos que
+Então, como \\(\lambda + \tau = cte, \forall r > R\\) e \\(\lambda + \tau = 0, \forall r \gg R\\), temos que
 
 $$
 \tau + \lambda = 0, \forall r > R
@@ -331,13 +339,13 @@ g_{11} = e^{2\lambda} & = (1 + \tfrac{C}{r})^{-1}
 \end{aligned}
 $$
 
-Contudo, sabemos que, no limite Newtoniano, \(g_{00} = -(1 + 2\Phi)\), onde \(\Phi\) é o potencial gravitacional
+Contudo, sabemos que, no limite Newtoniano, \\(g_{00} = -(1 + 2\Phi)\\), onde \\(\Phi\\) é o potencial gravitacional
 
 $$
 \Phi = - \tfrac{M}{r}
 $$
 
-Logo, tiramos que \(C = - 2M\).
+Logo, tiramos que \\(C = - 2M\\).
 
 ## Forma final da métrica de Schwarzschild e do elemento de linha
 
