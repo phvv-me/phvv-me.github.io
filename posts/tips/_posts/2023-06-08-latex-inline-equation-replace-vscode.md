@@ -2,10 +2,10 @@
 layout: single
 tags:
     - vscode
-title: Replace inline Latex equation from `$ ... $` format to with `\(...\)` strings excluding the `$$ ... $$` ones.
+title: Replace inline Latex equation from $ ... $ format to \(...\) strings excluding $$ ... $$
 ---
 
-## TLDR
+## TL;DR
 
 - Find: `(?<!\$)\$(?!\$)(.*?)(?<!\$)\$(?!\$)`
 - Replace: `\\\($1\\\)`
