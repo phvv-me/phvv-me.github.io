@@ -1,7 +1,8 @@
 ---
-layout: single
+draft: true
 permalink: /about/
-title: About Me
+menus: main
+title: About
 ---
 
 # About me

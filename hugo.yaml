@@ -1,0 +1,68 @@
+baseURL: "https://phvv.me/"
+languageCode: "en-us"
+title: "phvv.me"
+theme: ["PaperMod"]
+
+enableRobotsTXT: true
+sectionPagesMenu: main
+services:
+  googleAnalytics:
+    ID: G-ZYYF3GKNTE
+
+params:
+  env: production
+  title: "phvv.me"
+  description: "Pedro Valois' personal website. Bookmark to keep an eye on my project updates!"
+  author: "Pedro Valois"
+  locale: "en-US"
+  images: ["/assets/icon/icon-dark.svg"]
+  DateFormat: "January 2, 2006"
+  defaultTheme: dark
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowWordCount: true
+  ShowRssButtonInSectionTermList: false  # Assuming RSS isn't prioritized
+  comments: false  # Set true and configure if you want comments
+
+  socialIcons:
+    - name: github
+      url: "https://github.com/pedrexus"
+    - name: instagram
+      url: "https://www.instagram.com/pedrovvalois/"
+    - name: linkedin
+      url: "https://www.linkedin.com/in/pedro-henrique-vaz-valois-288b8a146/"
+
+  profileMode:
+    enabled: true
+    title: "Pedro Valois"
+    subtitle: "Computer Science PhD student at Tsukuba University"
+    imageUrl: "/assets/profile/profile-02.webp"
+    imageWidth: 120
+    imageHeight: 120
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true  # Allows HTML in Markdown files
+  highlight:
+    codeFences: true
+    noClasses: false
+    style: "monokai"
+
+menu:
+  main:
+    - identifier: "home"
+      name: "Home"
+      url: "/"
+      weight: 1
+    - identifier: "posts"
+      name: "Posts"
+      url: "/posts/"
+      weight: 2
+
+# # Assuming you have Hugo's in-built taxonomies (tags and categories) configured
+# taxonomies:
+#   tag: "tags"
+#   category: "categories"

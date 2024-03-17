@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>phvv.me</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on phvv.me</description>
+    <image>
+      <title>phvv.me</title>
+      <url>http://localhost:1313/assets/icon/icon-dark.svg</url>
+      <link>http://localhost:1313/assets/icon/icon-dark.svg</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 09 Mar 2024 10:44:13 +0900</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>First</title>
+      <link>http://localhost:1313/first/</link>
+      <pubDate>Sat, 09 Mar 2024 10:44:13 +0900</pubDate>
+      <guid>http://localhost:1313/first/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>About</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/about/</guid>
+      <description>About me Hello, I am Pedro!
+I am from Salvador, Bahia, Brazil, but I am currently pursuing my PhD in Computer Science in Tsukuba, Japan.
+At present, I am devoting myself to study subjects that sparked my interest, namely japanese and Deep Learning.
+Oh, and of course, I also keep this website, writing a somethings whenever possible.
+About the website This site is a tool to organize subjects I wish to ponder and a reason for writing more frequently as well.</description>
+    </item>
+  </channel>
+</rss>
