@@ -119,10 +119,13 @@ author:
   location         : Japan 🗾
   # email            : vaz.valois@hotmail.com
   links: &links
-    - label: Medium
+    - label: Publications
+      icon: "fas fa-fw fa-graduation-cap"
+      url: https://scholar.google.com/citations?user=2YyfBOgAAAAJ
+    - label: Posts
       icon: fab fa-fw fa-medium
       url: &medium https://phvv.medium.com/subscribe
-    - label: "Email"
+    - label: Email
       icon: "fas fa-fw fa-envelope-square"
       url: mailto:vaz.valois@hotmail.com
     - label: "Website"
