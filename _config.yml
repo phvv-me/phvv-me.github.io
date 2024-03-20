@@ -121,7 +121,7 @@ author:
   links: &links
     - label: Medium
       icon: fab fa-fw fa-medium
-      url: &medium https://phvv.medium.com/
+      url: &medium https://phvv.medium.com/subscribe
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       url: mailto:vaz.valois@hotmail.com
