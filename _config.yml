@@ -28,7 +28,7 @@ title_separator          : "|"
 subtitle                 : Pedro Valois # site tagline that appears below site title in masthead
 name                     : Pedro Valois
 description              : Pedro Valois' personal website. Bookmark to keep an eye on my project updates!
-url                      : https://phvv.me # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : &website https://phvv.me # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : phvv-me/phvv-me.github.io # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
@@ -121,16 +121,13 @@ author:
   links: &links
     - label: Publications
       icon: "fas fa-fw fa-graduation-cap"
-      url: https://scholar.google.com/citations?user=2YyfBOgAAAAJ
+      url: &scholar https://scholar.google.com/citations?user=2YyfBOgAAAAJ
     - label: Posts
       icon: fab fa-fw fa-medium
       url: &medium https://phvv.medium.com/subscribe
     - label: Email
       icon: "fas fa-fw fa-envelope-square"
       url: mailto:vaz.valois@hotmail.com
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: phvv.me
     - label: GitHub
       icon: fab fa-fw fa-github
       url: &github https://github.com/pedrexus
@@ -140,6 +137,9 @@ author:
     - label: LinkedIn
       icon: fab fa-fw fa-linkedin-in
       url: &linkedin https://www.linkedin.com/in/pedro-henrique-vaz-valois-288b8a146/
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: *website
     # - label: "Twitter"
     #   icon: "fab fa-fw fa-twitter-square"
       # url: "https://twitter.com/"
