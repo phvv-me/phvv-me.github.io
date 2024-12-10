@@ -115,7 +115,7 @@ analytics:
 author:
   name             : Pedro Valois
   avatar           : /assets/profile/profile-02.webp # path of avatar image
-  bio              : Research, Japanese & Games 📚
+  bio              : PhD Student working on LLM Interpretability 📚
   location         : Japan 🗾
   # email            : vaz.valois@hotmail.com
   links: &links
