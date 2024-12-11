@@ -101,6 +101,7 @@ social:
   name                   : # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
     - *github
+    - *youtube
     - *instagram
     - *linkedin
 
@@ -128,6 +129,9 @@ author:
     - label: Email
       icon: "fas fa-fw fa-envelope-square"
       url: mailto:contact@phvv.me
+    - label: YouTube
+      icon: fab fa-fw fa-youtube
+      url: &youtube https://www.youtube.com/@phvvme
     - label: GitHub
       icon: fab fa-fw fa-github
       url: &github https://github.com/pedrexus
