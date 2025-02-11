@@ -23,6 +23,7 @@ GEM
     commonmarker (0.23.10)
     concurrent-ruby (1.2.3)
     connection_pool (2.4.1)
+    csv (3.3.2)
     dnsruby (1.71.0)
       simpleidn (~> 0.2.1)
     drb (2.2.1)
@@ -205,6 +206,11 @@ GEM
       gemoji (>= 3, < 5)
       html-pipeline (~> 2.2)
       jekyll (>= 3.0, < 5.0)
+    just-the-docs (0.10.0)
+      jekyll (>= 3.8.5)
+      jekyll-include-cache
+      jekyll-seo-tag (>= 2.0)
+      rake (>= 12.3.1)
     kramdown (2.4.0)
       rexml
     kramdown-parser-gfm (1.1.0)
@@ -241,6 +247,7 @@ GEM
       forwardable-extended (~> 2.6)
     public_suffix (5.0.4)
     racc (1.7.3)
+    rake (13.2.1)
     rb-fsevent (0.11.2)
     rb-inotify (0.10.1)
       ffi (~> 1.0)
@@ -280,9 +287,11 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
+  csv
   github-pages
   jekyll
   jekyll-include-cache
+  just-the-docs
   webrick
 
 BUNDLED WITH
