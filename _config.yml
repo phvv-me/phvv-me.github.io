@@ -19,7 +19,6 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: &website https://phvv.me # the base hostname & protocol for your site, e.g. http://example.com
 repository: phvv-me/phvv-me.github.io # for github-metadata
 
-theme: just-the-docs
 remote_theme: just-the-docs/just-the-docs
 
 permalink: pretty
