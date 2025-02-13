@@ -1,0 +1,23 @@
+.device-frame {
+    background: url("../../assets/apple/iphone_16_pro_titanium_large_2x.png") center/100% no-repeat;
+    mask: url("../../assets/apple/iphone_16_pro_mask_large_2x.png") center/100% no-repeat;
+    position: relative;
+    height: 576px;
+    width: 282px;
+  
+    img {
+      max-width: 89.7%;
+      max-height: 95.6%;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      object-fit: contain;
+      border-radius: 40px;
+    }
+  }
+
+.app-icon {
+    border-radius: 20px;
+    height: 120px;
+}
