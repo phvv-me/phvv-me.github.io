@@ -5,5 +5,5 @@ The Productivity Hunter's Virtual Vault
 ## Run Website Locally
 
 ```bash
-bundle exec jekyll serve
+bundle exec jekyll clean && bundle exec jekyll serve
 ```
